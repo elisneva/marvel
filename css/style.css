@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Marvel";
+  src: url("../font/Marvel-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --bs-red: #ec1d23;
+}
+
+.navbar {
+  background-color: var(--bs-red);
+}
+
+h1 {
+  color: var(--bs-red);
+}
+
+.card-title {
+  text-align: center;
+}
